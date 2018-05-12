@@ -11,7 +11,8 @@ MFA:Buster automatically performs Duke University Shibboleth Multifactor Authent
 
     ![Pushbullet App](MFAB/Screenshots/2.png)
 
-3. Enable SMS Sync in the Pushbullet mobile app. You can find this option under Menu -> SMS -> SMS Sync. 
+3. Enable SMS Sync in the Pushbullet mobile app. You can find this option under 
+    Menu -> SMS -> SMS Sync. 
 
     ![Pushbullet SMS Sync](MFAB/Screenshots/3.png)
 
