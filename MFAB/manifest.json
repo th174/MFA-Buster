@@ -1,0 +1,27 @@
+{
+  "name": "MFA:Buster",
+  "version": "1.0",
+  "description": "Duke's MultiFactor Authentication Buster. Not to be confused with FMA:B",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action" :
+  {
+    "default_popup" : "popup.html"
+  },
+  "permissions" : [
+    "declarativeContent", "http://*/", "activeTab", "https://*/", "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://shib.oit.duke.edu/idp/authn/*"],
+      "js": ["socketListen.js"]
+    },
+    {
+      "matches": ["*://*.pushbullet.com/login-success*"],
+      "js": ["saveToken.js"]
+    }
+  ],
+  "manifest_version": 2
+}
