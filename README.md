@@ -31,4 +31,4 @@ MFA:Buster automatically performs Duke University Shibboleth Multifactor Authent
 
 ![Passcode](MFAB/Screenshots/7.png)
 
-8. For any additional logins to Duke services, repeat steps 6 and 7.
+8. For any additional logins to Duke services, repeat steps 6 and 7. No phone required!
