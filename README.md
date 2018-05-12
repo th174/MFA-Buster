@@ -3,7 +3,7 @@ MFA:Buster automatically performs Duke University Shibboleth Multifactor Authent
 
 ## Usage Instructions
 
-1. [Download the chrome extension here](MFAB.crx). Drag and drop the .crx chrome extension file onto your [chrome extensions](chrome://extensions/) page to install it. 
+1. [Download the chrome extension here](MFAB.crx). Drag and drop the .crx chrome extension file onto your chrome extensions (chrome://extensions/) page to install it. 
 
     ![MFAB extension](MFAB/Screenshots/1.png)
 
