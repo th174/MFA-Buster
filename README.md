@@ -1,5 +1,5 @@
 # MFA-Buster
-MFA:Buster automatically performs Duke University Shibboleth Multifactor Authentication through SMS through a Google Chrome extension.
+MFA Buster automatically performs Duke University Shibboleth Multifactor Authentication through SMS using a Google Chrome extension. It uses the [Pushbullet App and Pushbullet API](https://www.pushbullet.com/) to push SMS notifications online, then retrieves and automatically fills in the MFA passcode received from SMS.
 
 ## Usage Instructions
 
