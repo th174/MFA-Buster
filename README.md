@@ -7,13 +7,13 @@ MFA:Buster automatically performs Duke University Shibboleth Multifactor Authent
 
     ![MFAB extension](MFAB/Screenshots/1.png)
 
-2. Download and install the Pushbullet mobile app for [iOS](https://itunes.apple.com/us/app/pushbullet/id810352052) or [Android](https://play.google.com/store/apps/details?id=com.pushbullet.android). Once it's installed, login using a Google or Facebook account. 
+2. Download and install the Pushbullet mobile app for ~~[iOS](https://itunes.apple.com/us/app/pushbullet/id810352052)~~ or [Android](https://play.google.com/store/apps/details?id=com.pushbullet.android). Once it's installed, login using a Google or Facebook account. 
 
     ![Pushbullet App](MFAB/Screenshots/2.png)
 
-3. Enable SMS Sync in the Pushbullet mobile app. You can find this option under 
+3. Enable SMS Sync in the Pushbullet mobile app. On Android, you can find this option under 
 
-    Menu -> SMS -> SMS Sync. 
+    Hamburger Menu -> SMS -> SMS Sync. 
 
     ![Pushbullet SMS Sync](MFAB/Screenshots/3.png)
 
