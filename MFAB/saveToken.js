@@ -3,7 +3,7 @@ try {
     const tokenMatcher = /www.pushbullet.com\/login-success#access_token=(.+)$/;
     const tokens = tokenMatcher.exec(fullURL);
     if (tokens.length > 0) {
-        chrome.storage.sync.set({"pushbulletToken": tokens[1]});
+        chrome.storage.local.set({"pushbulletToken": tokens[1]});
         // chrome.storage.sync.get(['pushbulletToken'], function (result) {
         //     window.alert("Saved Token" + result.pushbulletToken)
         // });
