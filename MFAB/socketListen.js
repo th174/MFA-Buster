@@ -1,5 +1,5 @@
 try {
-    chrome.storage.sync.get(['pushbulletToken'], function (result) {
+    chrome.storage.local.get(['pushbulletToken'], function (result) {
         const token = result.pushbulletToken;
         const websocket = new WebSocket('wss://stream.pushbullet.com/websocket/' + token);
         const passcodeMatcher = /SMS passcodes:(?: ([0-9]+))+/;
