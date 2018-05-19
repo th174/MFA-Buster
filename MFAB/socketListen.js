@@ -13,6 +13,7 @@ try {
         websocket.onmessage = function (message) {
             const data = JSON.parse(message.data);
             if (data.hasOwnProperty('type') && data.type === "push" && data.hasOwnProperty('push')) {
+                //window.alert("Received Push:" +  message.data);
                 const content = data.push;
                 if (content.hasOwnProperty('type') && content.type === "sms_changed" && content.hasOwnProperty('notifications')) {
                     for (let i = 0; i < content.notifications.length; i++) {
